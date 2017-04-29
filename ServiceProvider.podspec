@@ -8,10 +8,11 @@ Pod::Spec.new do |s|
     s.resource_bundles = { 'ServiceProvider' => 'ServiceProvider/GoogleService-Info.plist' }
     s.requires_arc = true
 
-    s.homepage = 'https://github.com/mownier/Umalahokan'
-    s.source = { :git =>'https://github.com/mownier/Umalahokan.git', :branch => 'master' }
+    s.homepage = 'https://github.com/mownier/umalahokan-service-provider'
+    s.source = { :git =>'https://github.com/mownier/umalahokan-service-provider.git', :branch => 'master' }
 
     s.dependency 'Firebase/Database'
     s.dependency 'Firebase/Auth'
     s.dependency 'Firebase/Storage'
+    s.dependency 'Core'
 end
