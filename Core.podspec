@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
     s.source_files = 'Core/*.swift'
     s.requires_arc = true
 
-    s.homepage = 'https://github.com/mownier/Umalahokan'
-    s.source = { :git =>'https://github.com/mownier/Umalahokan.git', :branch => 'master' }
+    s.homepage = 'https://github.com/mownier/umalahokan-core'
+    s.source = { :git =>'https://github.com/mownier/umalahokan-core.git', :branch => 'master' }
+    s.license = { :type => 'MIT', :file => 'LICENSE' }
 end
