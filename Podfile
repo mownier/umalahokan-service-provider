@@ -10,7 +10,6 @@ target 'ServiceProvider' do
     pod 'Firebase/Database'
     pod 'Firebase/Auth'
     pod 'Firebase/Storage'
-    pod 'Core'
     
     target 'ServiceProviderTests' do
         inherit! :search_paths
