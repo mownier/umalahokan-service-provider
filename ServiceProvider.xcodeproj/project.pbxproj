@@ -18,6 +18,13 @@
 		B98299981E88FB7000624644 /* AuthServiceErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98299971E88FB7000624644 /* AuthServiceErrorExtension.swift */; };
 		B982999A1E88FB8F00624644 /* FIRDataSnapshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98299991E88FB8F00624644 /* FIRDataSnapshotExtension.swift */; };
 		B992F6B21E8644DA00A997EA /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B992F6B11E8644DA00A997EA /* FirebaseHelper.swift */; };
+		B9AABFB41EB9C54600238BEF /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AABFAD1EB9C54600238BEF /* Mood.swift */; };
+		B9AABFB51EB9C54600238BEF /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AABFAE1EB9C54600238BEF /* Contact.swift */; };
+		B9AABFB61EB9C54600238BEF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AABFAF1EB9C54600238BEF /* AuthService.swift */; };
+		B9AABFB71EB9C54600238BEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AABFB01EB9C54600238BEF /* User.swift */; };
+		B9AABFB81EB9C54600238BEF /* DatabaseAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AABFB11EB9C54600238BEF /* DatabaseAccess.swift */; };
+		B9AABFB91EB9C54600238BEF /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AABFB21EB9C54600238BEF /* DatabaseProtocol.swift */; };
+		B9AABFBA1EB9C54600238BEF /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AABFB31EB9C54600238BEF /* UserService.swift */; };
 		B9BB81671E8B5C5B00A95E8E /* UsersResourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BB81661E8B5C5B00A95E8E /* UsersResourceTest.swift */; };
 		B9BB816A1E8B5D3400A95E8E /* AuthServiceErrorExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BB81691E8B5D3400A95E8E /* AuthServiceErrorExtensionTest.swift */; };
 		B9BB816C1E8B7B9800A95E8E /* RemoteDatabaseSourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BB816B1E8B7B9800A95E8E /* RemoteDatabaseSourceTest.swift */; };
@@ -79,6 +86,13 @@
 		B98299971E88FB7000624644 /* AuthServiceErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServiceErrorExtension.swift; sourceTree = "<group>"; };
 		B98299991E88FB8F00624644 /* FIRDataSnapshotExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDataSnapshotExtension.swift; sourceTree = "<group>"; };
 		B992F6B11E8644DA00A997EA /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		B9AABFAD1EB9C54600238BEF /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mood.swift; path = ../Core/Core/Mood.swift; sourceTree = "<group>"; };
+		B9AABFAE1EB9C54600238BEF /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = ../Core/Core/Contact.swift; sourceTree = "<group>"; };
+		B9AABFAF1EB9C54600238BEF /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = ../Core/Core/AuthService.swift; sourceTree = "<group>"; };
+		B9AABFB01EB9C54600238BEF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../Core/Core/User.swift; sourceTree = "<group>"; };
+		B9AABFB11EB9C54600238BEF /* DatabaseAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseAccess.swift; path = ../Core/Core/DatabaseAccess.swift; sourceTree = "<group>"; };
+		B9AABFB21EB9C54600238BEF /* DatabaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseProtocol.swift; path = ../Core/Core/DatabaseProtocol.swift; sourceTree = "<group>"; };
+		B9AABFB31EB9C54600238BEF /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = ../Core/Core/UserService.swift; sourceTree = "<group>"; };
 		B9BB81661E8B5C5B00A95E8E /* UsersResourceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersResourceTest.swift; sourceTree = "<group>"; };
 		B9BB81691E8B5D3400A95E8E /* AuthServiceErrorExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServiceErrorExtensionTest.swift; sourceTree = "<group>"; };
 		B9BB816B1E8B7B9800A95E8E /* RemoteDatabaseSourceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDatabaseSourceTest.swift; sourceTree = "<group>"; };
@@ -235,6 +249,28 @@
 			name = "Support Files";
 			sourceTree = "<group>";
 		};
+		B9AABFBB1EB9C54D00238BEF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B9AABFBC1EB9C55D00238BEF /* Core */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B9AABFBC1EB9C55D00238BEF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B9AABFAF1EB9C54600238BEF /* AuthService.swift */,
+				B9AABFAE1EB9C54600238BEF /* Contact.swift */,
+				B9AABFB11EB9C54600238BEF /* DatabaseAccess.swift */,
+				B9AABFB21EB9C54600238BEF /* DatabaseProtocol.swift */,
+				B9AABFAD1EB9C54600238BEF /* Mood.swift */,
+				B9AABFB01EB9C54600238BEF /* User.swift */,
+				B9AABFB31EB9C54600238BEF /* UserService.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		B9BB81681E8B5C5F00A95E8E /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,11 +282,12 @@
 		B9E3265A1E851A7100084B38 = {
 			isa = PBXGroup;
 			children = (
+				08FF93673BBE06F8D9E08305 /* Frameworks */,
+				B9AABFBB1EB9C54D00238BEF /* Modules */,
+				56EDD29F956691320471B898 /* Pods */,
+				B9E326651E851A7100084B38 /* Products */,
 				B9E326661E851A7100084B38 /* ServiceProvider */,
 				B9E326711E851A7100084B38 /* ServiceProviderTests */,
-				B9E326651E851A7100084B38 /* Products */,
-				56EDD29F956691320471B898 /* Pods */,
-				08FF93673BBE06F8D9E08305 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -505,7 +542,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EFD93F3F809CA15227D075F5 /* [CP] Check Pods Manifest.lock */ = {
@@ -520,7 +557,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F524B3F272C70590F1B2EB72 /* [CP] Copy Pods Resources */ = {
@@ -545,10 +582,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9AABFB81EB9C54600238BEF /* DatabaseAccess.swift in Sources */,
+				B9AABFB51EB9C54600238BEF /* Contact.swift in Sources */,
 				B9F7965D1E8A0AE6005F645A /* ResourcePath.swift in Sources */,
 				B9CDDDFD1E8CE96C004B0AD0 /* DatabaseAccessErrorExtension.swift in Sources */,
 				B98299981E88FB7000624644 /* AuthServiceErrorExtension.swift in Sources */,
+				B9AABFB41EB9C54600238BEF /* Mood.swift in Sources */,
+				B9AABFBA1EB9C54600238BEF /* UserService.swift in Sources */,
 				B9F796771E8A2AA5005F645A /* RemoteDatabaseAccess.swift in Sources */,
+				B9AABFB71EB9C54600238BEF /* User.swift in Sources */,
+				B9AABFB91EB9C54600238BEF /* DatabaseProtocol.swift in Sources */,
+				B9AABFB61EB9C54600238BEF /* AuthService.swift in Sources */,
 				B9F796811E8A55BA005F645A /* RemoteDatabaseSource.swift in Sources */,
 				B992F6B21E8644DA00A997EA /* FirebaseHelper.swift in Sources */,
 				B982999A1E88FB8F00624644 /* FIRDataSnapshotExtension.swift in Sources */,
