@@ -7,5 +7,8 @@
         "Firebase/Database",
         "Firebase/Auth",
         "Firebase/Storage" 
+    ],
+    "modules": [
+        "https://github.com/mownier/umalahokan-core.git"
     ]
 }
