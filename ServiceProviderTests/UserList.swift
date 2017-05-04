@@ -6,7 +6,7 @@
 //  Copyright © 2017 Ner. All rights reserved.
 //
 
-import Core
+import Login
 
 var userList: [User] = {
     var data = [User]()
