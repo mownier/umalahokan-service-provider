@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		AAAAD2C3918A2DE4214CC0CD /* Pods_ServiceProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD884F680746C5E9A08714E8 /* Pods_ServiceProvider.framework */; };
 		AD78E9B22D80F193B0522BD5 /* Pods_ServiceProviderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427F46B0937CB083D1169737 /* Pods_ServiceProviderTests.framework */; };
+		B96301281EBB1C7F00127834 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96301201EBB1C7F00127834 /* AuthService.swift */; };
+		B96301291EBB1C7F00127834 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96301211EBB1C7F00127834 /* Contact.swift */; };
+		B963012B1EBB1C7F00127834 /* DatabaseAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96301231EBB1C7F00127834 /* DatabaseAccess.swift */; };
+		B963012C1EBB1C7F00127834 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96301241EBB1C7F00127834 /* DatabaseProtocol.swift */; };
+		B963012D1EBB1C7F00127834 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96301251EBB1C7F00127834 /* Mood.swift */; };
+		B963012E1EBB1C7F00127834 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96301261EBB1C7F00127834 /* User.swift */; };
+		B963012F1EBB1C7F00127834 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96301271EBB1C7F00127834 /* UserService.swift */; };
+		B96301331EBB1D2700127834 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B96301321EBB1D2700127834 /* GoogleService-Info.plist */; };
 		B970BFDA1E8DF615009F010D /* DatabaseAccessErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B970BFD91E8DF615009F010D /* DatabaseAccessErrorTest.swift */; };
 		B970BFDC1E8E06E5009F010D /* CredentialList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B970BFDB1E8E06E5009F010D /* CredentialList.swift */; };
 		B970BFDF1E8E0751009F010D /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B970BFDE1E8E0751009F010D /* UserList.swift */; };
@@ -39,7 +47,6 @@
 		B9F796791E8A2BF4005F645A /* RemoteDatabaseAccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F796781E8A2BF4005F645A /* RemoteDatabaseAccessMock.swift */; };
 		B9F7967F1E8A3DC8005F645A /* RemoteDatabaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F7967E1E8A3DC8005F645A /* RemoteDatabaseTest.swift */; };
 		B9F796811E8A55BA005F645A /* RemoteDatabaseSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F796801E8A55BA005F645A /* RemoteDatabaseSource.swift */; };
-		B9F915B71EB4625C00D5F768 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9F915B61EB4625C00D5F768 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +77,14 @@
 		B28A545B70DF55276A1EBF98 /* Pods-ServiceProviderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceProviderTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ServiceProviderTests/Pods-ServiceProviderTests.release.xcconfig"; sourceTree = "<group>"; };
 		B2FD20B100D2D46CB6704F14 /* Pods_UmalahokanApp_ServiceProvider_ServiceProviderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmalahokanApp_ServiceProvider_ServiceProviderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94435D51E91F879006A0D1E /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Umalahokan-fugcbvoipmqliwfxmepdglekpjqz/Build/Products/Debug-iphonesimulator/Core.framework"; sourceTree = "<group>"; };
+		B96301201EBB1C7F00127834 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = Modules/Core/Core/AuthService.swift; sourceTree = "<group>"; };
+		B96301211EBB1C7F00127834 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = Modules/Core/Core/Contact.swift; sourceTree = "<group>"; };
+		B96301231EBB1C7F00127834 /* DatabaseAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseAccess.swift; path = Modules/Core/Core/DatabaseAccess.swift; sourceTree = "<group>"; };
+		B96301241EBB1C7F00127834 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseProtocol.swift; path = Modules/Core/Core/DatabaseProtocol.swift; sourceTree = "<group>"; };
+		B96301251EBB1C7F00127834 /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mood.swift; path = Modules/Core/Core/Mood.swift; sourceTree = "<group>"; };
+		B96301261EBB1C7F00127834 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Modules/Core/Core/User.swift; sourceTree = "<group>"; };
+		B96301271EBB1C7F00127834 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Modules/Core/Core/UserService.swift; sourceTree = "<group>"; };
+		B96301321EBB1D2700127834 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B970BFD91E8DF615009F010D /* DatabaseAccessErrorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseAccessErrorTest.swift; sourceTree = "<group>"; };
 		B970BFDB1E8E06E5009F010D /* CredentialList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialList.swift; sourceTree = "<group>"; };
 		B970BFDE1E8E0751009F010D /* UserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
@@ -104,7 +119,6 @@
 		B9F796781E8A2BF4005F645A /* RemoteDatabaseAccessMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDatabaseAccessMock.swift; sourceTree = "<group>"; };
 		B9F7967E1E8A3DC8005F645A /* RemoteDatabaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDatabaseTest.swift; sourceTree = "<group>"; };
 		B9F796801E8A55BA005F645A /* RemoteDatabaseSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDatabaseSource.swift; sourceTree = "<group>"; };
-		B9F915B61EB4625C00D5F768 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C292DE7A776A30681D965140 /* Pods_UmalahokanApp_UmalahokanRemoteDataLogic_ServiceProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmalahokanApp_UmalahokanRemoteDataLogic_ServiceProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4A0678822FEE5BE48A8384 /* Pods_UmalahokanRemoteDataLogic_ServiceProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmalahokanRemoteDataLogic_ServiceProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD461A756C1F214EBB6423E5 /* Pods-Umalahokan-ServiceProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umalahokan-ServiceProvider.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Umalahokan-ServiceProvider/Pods-Umalahokan-ServiceProvider.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +184,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B963011F1EBB1C6600127834 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B96301311EBB1C9000127834 /* Core */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B96301311EBB1C9000127834 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B96301201EBB1C7F00127834 /* AuthService.swift */,
+				B96301211EBB1C7F00127834 /* Contact.swift */,
+				B96301231EBB1C7F00127834 /* DatabaseAccess.swift */,
+				B96301241EBB1C7F00127834 /* DatabaseProtocol.swift */,
+				B96301251EBB1C7F00127834 /* Mood.swift */,
+				B96301261EBB1C7F00127834 /* User.swift */,
+				B96301271EBB1C7F00127834 /* UserService.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		B970BFE01E8E076C009F010D /* List */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,7 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				B9E326671E851A7100084B38 /* ServiceProvider.h */,
-				B9F915B61EB4625C00D5F768 /* GoogleService-Info.plist */,
+				B96301321EBB1D2700127834 /* GoogleService-Info.plist */,
 				B9E326681E851A7100084B38 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -247,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				08FF93673BBE06F8D9E08305 /* Frameworks */,
+				B963011F1EBB1C6600127834 /* Modules */,
 				56EDD29F956691320471B898 /* Pods */,
 				B9E326651E851A7100084B38 /* Products */,
 				B9E326661E851A7100084B38 /* ServiceProvider */,
@@ -449,7 +486,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9F915B71EB4625C00D5F768 /* GoogleService-Info.plist in Resources */,
+				B96301331EBB1D2700127834 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,12 +582,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B963012B1EBB1C7F00127834 /* DatabaseAccess.swift in Sources */,
+				B96301291EBB1C7F00127834 /* Contact.swift in Sources */,
 				B9F7965D1E8A0AE6005F645A /* ResourcePath.swift in Sources */,
 				B9CDDDFD1E8CE96C004B0AD0 /* DatabaseAccessErrorExtension.swift in Sources */,
+				B963012E1EBB1C7F00127834 /* User.swift in Sources */,
 				B98299981E88FB7000624644 /* AuthServiceErrorExtension.swift in Sources */,
+				B963012F1EBB1C7F00127834 /* UserService.swift in Sources */,
 				B9F796771E8A2AA5005F645A /* RemoteDatabaseAccess.swift in Sources */,
+				B963012C1EBB1C7F00127834 /* DatabaseProtocol.swift in Sources */,
 				B9F796811E8A55BA005F645A /* RemoteDatabaseSource.swift in Sources */,
+				B96301281EBB1C7F00127834 /* AuthService.swift in Sources */,
 				B992F6B21E8644DA00A997EA /* FirebaseHelper.swift in Sources */,
+				B963012D1EBB1C7F00127834 /* Mood.swift in Sources */,
 				B982999A1E88FB8F00624644 /* FIRDataSnapshotExtension.swift in Sources */,
 				B9F796631E8A20F3005F645A /* RemoteDatabase.swift in Sources */,
 				B98299951E88FB3900624644 /* UserExtension.swift in Sources */,

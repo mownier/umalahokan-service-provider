@@ -6,7 +6,7 @@
 //  Copyright © 2017 Ner. All rights reserved.
 //
 
-import Login
+import ServiceProvider
 
 var userList: [User] = {
     var data = [User]()

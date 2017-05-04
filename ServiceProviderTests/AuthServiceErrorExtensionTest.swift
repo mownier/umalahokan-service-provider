@@ -7,7 +7,6 @@
 //
 
 import XCTest
-import Core
 import Firebase
 @testable import ServiceProvider
 

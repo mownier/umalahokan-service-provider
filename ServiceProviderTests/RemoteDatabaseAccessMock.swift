@@ -6,8 +6,8 @@
 //  Copyright © 2017 Ner. All rights reserved.
 //
 
-import Core
 import Firebase
+import ServiceProvider
 
 class RemoteDatabaseAccessMock: DatabaseAccess {
     
